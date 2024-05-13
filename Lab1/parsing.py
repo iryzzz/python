@@ -1,11 +1,10 @@
-from argparse import ArgumentParser
 import logging
 import os
-
-from bs4 import BeautifulSoup
-from fake_headers import Headers
 import requests
 
+from argparse import ArgumentParser
+from bs4 import BeautifulSoup
+from fake_headers import Headers
 
 def create_dir(path: str):
     """
